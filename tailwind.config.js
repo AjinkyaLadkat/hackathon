@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'bruno': ['Bruno+Ace+SC']
+        'bruno': ['Bruno Ace SC', 'sans-serif']
       }
     },
   },
