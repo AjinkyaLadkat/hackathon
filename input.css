@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+ul li:hover ~ .cursor
+{
+    transform: scale(5);
+}
+ }
