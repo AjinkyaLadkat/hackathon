@@ -22,7 +22,7 @@
                 <li class="hover:translate-x-10 hover:underline-offset-8 underline duration-300 "><a class="" href="">Portfolio</a></li>
                 <li class="hover:translate-x-10 hover:underline-offset-8 underline duration-300 "><a class="" href="">Team</a></li>
                 <li class="hover:translate-x-10 hover:underline-offset-8 underline duration-300 "><a class="" href="">Contact</a></li>
-                <div class="cursor fixed w-[20px] h-[20px] rounded-[50%] bg-white duration-[0.1s] translate-[-50%,-50%] pointer-events-none mix-blend-difference"></div>
+                <div class="cursor fixed w-[20px] h-[20px] rounded-[50%]  translate-[-50%,-50%] pointer-events-none mix-blend-difference"></div>
             </ul>
         </div>
         <div class="hamburgur  cursor-pointer bg-white text-3xl rounded-full m-4 px-2 py-1">
@@ -30,21 +30,31 @@
             <ion-icon onclick="onToggleMenu(this)" class="m-3" name="menu"></ion-icon>
         </div>
     </nav>
-    <div><h2>AJink </h2></div>
-    <div class="bg-slate-500 text-black">i am gay fuck you</div>
-    <div class="mx-5 bg-red-50 scroll-m-0.5">
-        <p>kallay vishal</p>
+        
+        
+    </div> 
+    <span class="">
+    <div class="h-[450px] w-full bg-fixed bg-cover bg-center flex justify-center items-center  font-bruno text-left text-[60px]" style="background-image: url(bg.jpg)">Welcome Home</div>
+
+    <div class="bg-black">
+    <div class="px-2 py-2 bg-black text-white w-[500px]  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi officiis.</div>
     </div>
-    <div class="mx-5 px-3 bg-red-400">i am not gay</div>
-    <script>
+    
+    <div class="commonninja_component pid-b3ef10df-0033-49d1-b530-c4f9d0bdc60f bg-black text-white"></div>
+    <div class="px-2 py-2 bg-black text-white  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi officiis.</div>
+    <div class="px-2 py-2 bg-black text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi officiis.</div>
+    <div class="px-2 py-2 bg-black text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi officiis.</div>
+    <div class="px-2 py-2 bg-black text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi officiis.</div>
+    <div class="px-2 py-2 bg-black text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi officiis.</div>
+    
+    <!-- //javascript section -->
+    <script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer>
         const navLinks = document.querySelector('.nav-links')
         function onToggleMenu(e) {
             e.name = e.name === 'menu' ? 'close' : 'menu'
             navLinks.classList.toggle('top-[14%]')
         }
-
-    </script>
-    <script>
+   
         const cursor = document.querySelector('.cursor');
         document.addEventListener('mousemove', (e)=>{
             cursor.style.left = e.pageX + 'px';
