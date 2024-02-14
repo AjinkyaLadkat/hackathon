@@ -3,10 +3,27 @@
 @tailwind components;
 @tailwind utilities;
 @layer components{
-ul li:hover ~ .cursor
-{
-    transform: scale(5);
-}
+  .hover-this:hover~.cursor {
+      transform: translate(-50%, -50%) scale(8);
+    }
+    @media(min-width: 900px) {
+      nav {
+        display: flex;
+        justify-content: space-around;
+      }
+    }
+  
+    @media(max-width: 900px) {
+      nav {
+        top: 30%;
+      }
+  
+      .hover-this {
+        width: 100%;
+        padding: 20px 0;
+        display: inline-block;
+      }
+    }
 }
 
 @layer components{

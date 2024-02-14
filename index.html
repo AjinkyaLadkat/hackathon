@@ -1,92 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="input.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="input.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <title>Document</title>
 </head>
-<body class="overflow-y-auto ">
-    <nav class="flex justify-between items-center bg-black h-fit ">
-        <div class="logo">
-            <img src="logo.jpg" class="w-16" alt="logo">
-        </div>
-        <div>
-            <ul class="nav-links scroll-mx-2 absolute bg-black text-white h-[100%] overflow-y-hidden duration-500 top-[-100%] left-0 w-full flex flex-col justify-center items-center text-4xl space-y-12 font-bruno">
-                
-            
-                
-                <li class="hover:translate-x-10 hover:underline-offset-8 underline duration-300 hover:text-[rgb(184 172 155)] "><a class="" href="">Home</a></li>
-                <li class="hover:translate-x-10 hover:underline-offset-8 underline duration-300 hover:text-rgb(184 172 155) "><a class="" href="">About</a></li>
-                <li class="hover:translate-x-10 hover:underline-offset-8 underline duration-300 hover:text-rgb(184 172 155) "><a class="" href="">Portfolio</a></li>
-                <li class="hover:translate-x-10 hover:underline-offset-8 underline duration-300 hover:text-rgb(184 172 155) "><a class="" href="">Team</a></li>
-                <li class="hover:translate-x-10 hover:underline-offset-8 underline duration-300 hover:text-rgb(184 172 155)"><a class="" href="">Contact</a></li>
+
+<body class="overflow-y-auto  ">
+  <nav class="flex justify-between items-center bg-black h-fit  ">
+    <div class="logo">
+      <img src="logo.jpg" class="w-16" alt="logo">
+    </div>
+    <div>
+      <ul
+        class="nav-links  absolute bg-black text-white h-[80%] overflow-y-hidden duration-500 top-[-100%] left-0 w-full flex flex-col justify-evenly items-center text-4xl  font-bruno ">
+        <a href="#" class="hover-this transition-all ease-in-out hover:translate-x-10 duration-150"><span
+            class="inline-block text-white text-3xl pointer-events-none transition-transform   ">Home</span></a>
+        <a href="#" class="hover-this transition-all ease-in-out hover:translate-x-10 duration-150"><span
+            class="inline-block text-white text-3xl pointer-events-none transition-transform   ">Our Story</span></a>
+        <a href="#" class="hover-this transition-all ease-in-out hover:translate-x-10 duration-150"><span
+            class="inline-block text-white text-3xl pointer-events-none transition-transform   ">Studio</span></a>
+        <a href="#" class="hover-this transition-all ease-in-out hover:translate-x-10 duration-150"><span
+            class="inline-block text-white text-3xl pointer-events-none transition-transform  " >Contact</span></a>
+        <div class="cursor pointer-events-none fixed p-[0.3rem] bg-[#fff] rounded-[50%] mix-blend-difference transition-transform "></div>
+      </ul>
+    </div>
+    <div class="hamburgur  cursor-pointer bg-white text-3xl rounded-full m-4 px-2 py-1">
+
+      <ion-icon onclick="onToggleMenu(this)" class="m-3" name="menu"></ion-icon>
+    </div>
+  </nav>
 
 
-                <div class="cursor bg-white duration-[0.1s] fixed w-[20px] h-[20px] rounded-[50%]  translate-[-50%,-50%] pointer-events-none mix-blend-difference"></div>
-            </ul>
-        </div>
-        <div class="hamburgur  cursor-pointer bg-white text-3xl rounded-full m-4 px-2 py-1">
-            
-            <ion-icon onclick="onToggleMenu(this)" class="m-3" name="menu"></ion-icon>
-        </div>
-    </nav>
-        
-          
-    </div> 
-    <span class="">
-    <div class="h-[450px] w-full bg-fixed bg-cover bg-center flex justify-center items-center  font-bruno text-left text-[60px] " style="background-image: url(para.jpg)">
-        
-        <div class="bg-gradient-to-tr from-[#eebd17] to-[rgb(184 172 155)]  text-transparent bg-clip-text ">Welcome Home</div>
-    
+  </div>
+  <span class=""> 
+    <div
+      class="h-[450px] w-full bg-fixed bg-cover bg-center flex justify-center items-center  font-bruno text-left text-[60px] "
+      style="background-image: url(para.jpg)">
+
+      <div class="bg-gradient-to-tr from-[#eebd17] to-[rgb(184 172 155)]  text-transparent bg-clip-text ">Welcome Home
+      </div>
+
     </div>
 
 
-<span class="h-[450px] w-full bg-fixed bg-cover bg-center flex justify-center items-center  font-bruno text-left text-[60px]" style="background-image: url(para.jpg)">  
+    <span
+      class="h-[500px] w-full bg-fixed bg-cover bg-center flex justify-center items-center  font-bruno text-[60px]"
+      style="background-image: url(para.jpg)">
 
-    <div class="flex flex-col items-center justify-center" >
-        <div class=" delay-75 px-4  border rounded bg-black text-white my-2 hover:scale-90 hover:rotate-180 duration-10 cursor-pointer  " data-aos=fade-right 
-        data-aos-anchor-placement="top-bottom" data-aos-duration="900">01</div>
+      <div class="flex flex-col items-center justify-center relative">
+        <div
+          class=" delay-75 px-4  border rounded-3xl bg-black text-white my-2  cursor-pointer  "
+          data-aos=fade-right data-aos-anchor-placement="top-bottom" data-aos-duration="900">01</div>
 
-        <div class="delay-[125ms] px-4  border rounded bg-black text-white my-2  hover:scale-90 hover:rotate-180 duration-10 cursor-pointer " data-aos=fade-left
-        data-aos-anchor-placement="top-bottom" data-aos-duration="900" >02</div>
+        <div
+          class="delay-[125ms] px-4  border rounded-3xl bg-black text-white my-2  cursor-pointer "
+          data-aos=fade-left data-aos-anchor-placement="top-bottom" data-aos-duration="900">02</div>
 
-        <div class=" delay-[175ms] px-4  border rounded bg-black text-white my-2   hover:scale-90 hover:rotate-180 duration-10 cursor-pointer" data-aos=fade-up
-        data-aos-anchor-placement="top-bottom" data-aos-duration="900">03</div>
+        <div
+          class=" delay-[175ms] px-4  border rounded-3xl bg-black text-white my-2  cursor-pointer"
+          data-aos=fade-up data-aos-anchor-placement="top-bottom" data-aos-duration="900">03</div>
       </div>
-</span>   
+    </span>
 
-   
+    <div class="px-2 py-2 bg-black text-white  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+      deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi
+      officiis.</div>
+    <div class="px-2 py-2 bg-black text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+      deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi
+      officiis.</div>
+    <div class="px-2 py-2 bg-black text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+      deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi
+      officiis.</div>
+    <div class="px-2 py-2 bg-black text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+      deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi
+      officiis.</div>
+    <div class="px-2 py-2 bg-black text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+      deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi
+      officiis.</div>
 
-
-    
-    
-
-    <div class="px-2 py-2 bg-black text-white  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi officiis.</div>
-    <div class="px-2 py-2 bg-black text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi officiis.</div>
-    <div class="px-2 py-2 bg-black text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi officiis.</div>
-    <div class="px-2 py-2 bg-black text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi officiis.</div>
-    <div class="px-2 py-2 bg-black text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi officiis.</div>
-    
-    <div class=" text-white bg-fixed bg-cover bg-center flex justify-center items-center  font-bruno text-left " style="background-image: url(para.jpg)">
-    <form class=" max-w-lg text-white font-bruno w-[100%] p-auto m-auto py-48" data-aos=fade-up
-    data-aos-anchor-placement="top-bottom" data-aos-duration="900">
+    <div class=" text-white bg-fixed bg-cover bg-center flex justify-center items-center  font-bruno text-left "
+      style="background-image: url(para.jpg)">
+      <form class=" max-w-lg text-white font-bruno w-[100%] p-auto m-auto py-48" data-aos=fade-up
+        data-aos-anchor-placement="top-bottom" data-aos-duration="900">
         <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
             <label class="block uppercase tracking-wide text-white- text-xs font-bold mb-2" for="grid-first-name">
               First Name
             </label>
-            <input class="appearance-none block w-full bg-gray-200 text-white- border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane">
+            <input
+              class="appearance-none block w-full bg-gray-200 text-white- border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+              id="grid-first-name" type="text" placeholder="Jane">
             <p class="text-red-500 text-xs italic">Please fill out this field.</p>
           </div>
           <div class="w-full md:w-1/2 px-3">
             <label class="block uppercase tracking-wide text-white- text-xs font-bold mb-2" for="grid-last-name">
               Last Name
             </label>
-            <input class="appearance-none block w-full bg-gray-200 text-white- border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-white-500" id="grid-last-name" type="text" placeholder="Doe">
+            <input
+              class="appearance-none block w-full bg-gray-200 text-white- border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-white-500"
+              id="grid-last-name" type="text" placeholder="Doe">
           </div>
         </div>
         <div class="flex flex-wrap -mx-3 mb-6">
@@ -94,7 +111,9 @@
             <label class="block uppercase tracking-wide text-xs font-bold mb-2" for="grid-password">
               Password
             </label>
-            <input class="appearance-none block w-full bg-gray-200 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="password" placeholder="******************">
+            <input
+              class="appearance-none block w-full bg-gray-200 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              id="grid-password" type="password" placeholder="******************">
             <p class="text-gray-600 text-xs italic">Make it as long and as crazy as you'd like</p>
           </div>
         </div>
@@ -103,20 +122,26 @@
             <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-city">
               City
             </label>
-            <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" placeholder="Albuquerque">
+            <input
+              class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              id="grid-city" type="text" placeholder="Albuquerque">
           </div>
           <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
             <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-state">
               State
             </label>
             <div class="relative">
-              <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
+              <select
+                class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                id="grid-state">
                 <option>New Mexico</option>
                 <option>Missouri</option>
                 <option>Texas</option>
               </select>
               <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                </svg>
               </div>
             </div>
           </div>
@@ -124,49 +149,118 @@
             <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-zip">
               Zip
             </label>
-            <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-zip" type="text" placeholder="90210">
+            <input
+              class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              id="grid-zip" type="text" placeholder="90210">
           </div>
         </div>
 
     </div>
-<div class="px-2 py-2 bg-black text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi officiis.</div>
-    
-    
-    
+        
+    <div class="px-2 py-2 bg-black text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+      deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi
+      officiis.</div>
 
-    <div class="px-2 py-2 bg-black text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi officiis.</div>
-    
-    
-    
-    <div class="px-2 py-2 bg-black text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi officiis.</div>
-    
-    
-    
-    <div class="px-2 py-2 bg-black text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi officiis.</div>  
-      
-      
-      
-      
+
+
+
+    <div class="px-2 py-2 bg-black text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+      deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi
+      officiis.</div>
+
+
+
+    <div class="px-2 py-2 bg-black text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+      deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi
+      officiis.</div>
+
+
+
+    <div class="px-2 py-2 bg-black text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+      deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi
+      officiis.</div>
+
+
+
+<div class="container flex ">
+  <div class="left 
+                    py-60 px-40 bg-gradient-to-r from-blue-300 to-purple-300"><span
+      class="font-bold text-3xl">Empowering <br>Minds Through <br>Digital <span
+        class=" font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">Education.
+        <br></span></span>
+    <span>Every step forward is a step towards Knowledge. <br> Emprace the journey</span>
+  </div>
+  <form class="right flex flex-col justify-between px-20 py-10">
+    <img class="size-40 hover:size-44  hover:rotate-3 transition-transform" src="logo.webp" alt="logo">
+    <div class="text font-bold text-3xl ">
+      Welcome Back! </div>
+    <p class="font-bold">Enter your credentails to access your account.</p>
+    <label for="email">Email</label>
+    <input class="border-2 rounded-md h-9 p-3" type="text">
+    <label for="pass">Password</label>
+    <input class="border-2 rounded-md h-9 p-3 " type="password">
+    <label class="checkbox">
+      <input type="checkbox" value="remember-me" id="remember_me"> Remember me
+    </label>
+    <button class=" bg-gradient-to-r from-blue-500 to-purple-600 border-2 rounded-md p-2 text-white">Log
+      In</button>
+    <div class="flex items-center">
+      <div class="flex-1 border-t-2 border-gray-200"></div>
+      <span class="px-3 text-gray-500 bg-white">OR</span>
+      <div class="flex-1 border-t-2 border-gray-200"></div>
+    </div>
+    <button class="flex border-2 p-2 rounded-md items-center justify-center">
+      <img class="w-10" src="Google-Symbol.png" alt="">Sign in with Google</button>
+
+  </form>
+</div>
+
+</div>
 
     <!-- //javascript section -->
     <script>
-        const navLinks = document.querySelector('.nav-links')
-        function onToggleMenu(e) {
-            e.name = e.name === 'menu' ? 'close' : 'menu'
-            navLinks.classList.toggle('top-[14%]')
-        }
-   
-        const cursor = document.querySelector('.cursor');
-        document.addEventListener('mousemove', (e)=>{
-            cursor.style.left = e.pageX + 'px';
-            cursor.style.top = e.pageY + 'px';
+      const navLinks = document.querySelector('.nav-links')
+      function onToggleMenu(e) {
+        e.name = e.name === 'menu' ? 'close' : 'menu'
+        navLinks.classList.toggle('top-[14%]')
+      }
 
-        })
+       (function () {
+
+          const link = document.querySelectorAll('nav>.hover-this');
+          const cursor = document.querySelector('.cursor');
+
+          const animateit = function (e) {
+            const span = this.querySelector('span');
+            const { offsetX: x, offsetY: y } = e,
+              { offsetWidth: width, offsetHeight: height } = this,
+
+              move = 25,
+              xMove = x / width * (move * 2) - move,
+              yMove = y / height * (move * 2) - move;
+
+            span.style.transform = `translate(${xMove}px, ${yMove}px)`;
+
+            if (e.type === 'mouseleave') span.style.transform = '';
+          };
+
+          const editCursor = e => {
+            const { clientX: x, clientY: y } = e;
+            cursor.style.left = x + 'px';
+            cursor.style.top = y + 'px';
+          };
+
+          link.forEach(b => b.addEventListener('mousemove', animateit));
+          link.forEach(b => b.addEventListener('mouseleave', animateit));
+          window.addEventListener('mousemove', editCursor);
+
+        })(); 
     </script>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js">AOS.init();</script>
-<script>
-    AOS.init();
-  </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">AOS.init();</script>
+    <script>
+      AOS.init();
+    </script>
 </body>
+
 </html>
