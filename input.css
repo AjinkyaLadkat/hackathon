@@ -8,3 +8,22 @@ ul li:hover ~ .cursor
     transform: scale(5);
 }
 }
+
+@layer components{
+    ::-webkit-scrollbar {
+        width: 12px;
+        display:none
+      }
+    
+      ::-webkit-scrollbar-track {
+        background: black;
+      }
+    
+      ::-webkit-scrollbar-thumb {
+        background: black;
+      }
+    
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+}

@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="input.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <title>Document</title>
 </head>
-<body>
+<body class="overflow-y-auto">
     <nav class="flex justify-between items-center bg-black h-fit">
         <div class="logo">
             <img src="logo.jpg" class="w-16" alt="logo">
@@ -17,12 +19,14 @@
                 
             
                 
-                <li class="hover:translate-x-10 hover:underline-offset-8 underline duration-300 "><a class="" href="">Home</a></li>
-                <li class="hover:translate-x-10 hover:underline-offset-8 underline duration-300 "><a class="" href="">About</a></li>
-                <li class="hover:translate-x-10 hover:underline-offset-8 underline duration-300 "><a class="" href="">Portfolio</a></li>
-                <li class="hover:translate-x-10 hover:underline-offset-8 underline duration-300 "><a class="" href="">Team</a></li>
-                <li class="hover:translate-x-10 hover:underline-offset-8 underline duration-300 "><a class="" href="">Contact</a></li>
-                <div class="cursor fixed w-[20px] h-[20px] rounded-[50%]  translate-[-50%,-50%] pointer-events-none mix-blend-difference"></div>
+                <li class="hover:translate-x-10 hover:underline-offset-8 underline duration-300 hover:text-[rgb(184 172 155)] "><a class="" href="">Home</a></li>
+                <li class="hover:translate-x-10 hover:underline-offset-8 underline duration-300 hover:text-rgb(184 172 155) "><a class="" href="">About</a></li>
+                <li class="hover:translate-x-10 hover:underline-offset-8 underline duration-300 hover:text-rgb(184 172 155) "><a class="" href="">Portfolio</a></li>
+                <li class="hover:translate-x-10 hover:underline-offset-8 underline duration-300 hover:text-rgb(184 172 155) "><a class="" href="">Team</a></li>
+                <li class="hover:translate-x-10 hover:underline-offset-8 underline duration-300 hover:text-rgb(184 172 155)"><a class="" href="">Contact</a></li>
+
+
+                <div class="cursor bg-white duration-[0.1s] fixed w-[20px] h-[20px] rounded-[50%]  translate-[-50%,-50%] pointer-events-none mix-blend-difference"></div>
             </ul>
         </div>
         <div class="hamburgur  cursor-pointer bg-white text-3xl rounded-full m-4 px-2 py-1">
@@ -31,24 +35,48 @@
         </div>
     </nav>
         
-        
+          
     </div> 
     <span class="">
-    <div class="h-[450px] w-full bg-fixed bg-cover bg-center flex justify-center items-center  font-bruno text-left text-[60px]" style="background-image: url(bg.jpg)">Welcome Home</div>
-
-    <div class="bg-black">
-    <div class="px-2 py-2 bg-black text-white w-[500px]  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi officiis.</div>
-    </div>
+    <div class="h-[450px] w-full bg-fixed bg-cover bg-center flex justify-center items-center  font-bruno text-left text-[60px] " style="background-image: url(para.jpg)">
+        
+        <div class="bg-gradient-to-tr from-[#eebd17] to-[rgb(184 172 155)]  text-transparent bg-clip-text ">Welcome Home</div>
     
-    <div class="commonninja_component pid-b3ef10df-0033-49d1-b530-c4f9d0bdc60f bg-black text-white"></div>
+    </div>
+
+
+<span class="h-[450px] w-full bg-fixed bg-cover bg-center flex justify-center items-center  font-bruno text-left text-[60px]" style="background-image: url(para.jpg)">  
+
+    <div class="flex flex-col items-center justify-center" >
+        <div class=" delay-75 px-4  border rounded bg-black text-white my-2 hover:scale-90 hover:rotate-180 duration-10 cursor-pointer  " data-aos=fade-right 
+        data-aos-anchor-placement="top-bottom" data-aos-duration="900">01</div>
+
+        <div class="delay-[125ms] px-4  border rounded bg-black text-white my-2  hover:scale-90 hover:rotate-180 duration-10 cursor-pointer " data-aos=fade-left
+        data-aos-anchor-placement="top-bottom" data-aos-duration="900" >02</div>
+
+        <div class=" delay-[175ms] px-4  border rounded bg-black text-white my-2   hover:scale-90 hover:rotate-180 duration-10 cursor-pointer" data-aos=fade-up
+        data-aos-anchor-placement="top-bottom" data-aos-duration="900">03</div>
+      </div>
+</span>   
+
+   
+
+
+    
+    
+
     <div class="px-2 py-2 bg-black text-white  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi officiis.</div>
     <div class="px-2 py-2 bg-black text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi officiis.</div>
     <div class="px-2 py-2 bg-black text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi officiis.</div>
     <div class="px-2 py-2 bg-black text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi officiis.</div>
     <div class="px-2 py-2 bg-black text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam deleniti possimus necessitatibus maxime voluptas blanditiis quos minima, quae alias? Laborum magni eum eos modi officiis.</div>
     
+    
+      
+      
+
     <!-- //javascript section -->
-    <script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer>
+    <script>
         const navLinks = document.querySelector('.nav-links')
         function onToggleMenu(e) {
             e.name = e.name === 'menu' ? 'close' : 'menu'
@@ -62,5 +90,10 @@
 
         })
     </script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js">AOS.init();</script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
